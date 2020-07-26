@@ -1,0 +1,34 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/PR_AI/Dropbox/Things to Print/Projects/Ender Stuff/Firmware/BTT SKR Mini E3 V2/.pio/build/STM32F103RC_btt_512K/firmware.elf",
+            "toolchainBinDir": "C:/Users/PR_AI/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/Users/PR_AI/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/PR_AI/Dropbox/Things to Print/Projects/Ender Stuff/Firmware/BTT SKR Mini E3 V2/.pio/build/STM32F103RC_btt_512K/firmware.elf",
+            "toolchainBinDir": "C:/Users/PR_AI/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/Users/PR_AI/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
