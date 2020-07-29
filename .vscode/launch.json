@@ -12,9 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "c:/Users/PR_AI/Dropbox/Things to Print/Projects/Ender Stuff/Firmware/BTT SKR Mini E3 V2/.pio/build/STM32F103RC_btt_512K/firmware.elf",
-            "toolchainBinDir": "C:/Users/PR_AI/.platformio/packages/toolchain-gccarmnoneeabi/bin",
-            "svdPath": "C:/Users/PR_AI/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "executable": "d:/SKE3/.pio/build/STM32F103RC_btt_512K/firmware.elf",
+            "toolchainBinDir": "C:/Users/WeiJu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "svdPath": "C:/Users/WeiJu/.platformio/platforms/ststm32@6.1.1/misc/svd/STM32F103xx.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
@@ -25,9 +25,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "c:/Users/PR_AI/Dropbox/Things to Print/Projects/Ender Stuff/Firmware/BTT SKR Mini E3 V2/.pio/build/STM32F103RC_btt_512K/firmware.elf",
-            "toolchainBinDir": "C:/Users/PR_AI/.platformio/packages/toolchain-gccarmnoneeabi/bin",
-            "svdPath": "C:/Users/PR_AI/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "executable": "d:/SKE3/.pio/build/STM32F103RC_btt_512K/firmware.elf",
+            "toolchainBinDir": "C:/Users/WeiJu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "svdPath": "C:/Users/WeiJu/.platformio/platforms/ststm32@6.1.1/misc/svd/STM32F103xx.svd",
             "internalConsoleOptions": "openOnSessionStart"
         }
     ]
